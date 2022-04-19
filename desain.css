@@ -80,12 +80,11 @@ nav ul li a:hover {
 .pembungkus {
     width: 800px;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .header {
-    height: 250px;
+    width: 900px;
+    height: 400px;
     background-image: url(https://img.freepik.com/free-vector/many-cute-animals-bamboo-forest_1308-32851.jpg?t=st=1649946453~exp=1649947053~hmac=5a1995a64c69de8e70ba385caab329577cf9beb2466ee69645d28cc607aab163&w=900);
     background-size: cover;
     position: relative;
@@ -96,6 +95,8 @@ nav ul li a:hover {
     background-color: antiquewhite;
     padding: 10px;
     color: rgb(38, 70, 83);
+    display: flex;
+    justify-content: space-between;
 }
 
 .konten h1.judulartikel {
@@ -139,13 +140,11 @@ nav ul li a:hover {
     width: 70%;
     padding: 10px;
     color: rgb(red, green, blue);
-    float: left;
 }
 
 .kolomkanan {
     box-sizing: border-box;
     width: 25%;
-    float: right;
 }
 
 .artikel {
@@ -184,15 +183,15 @@ a.tombolselanjutnya {
     color: rgb(241, 250, 238)
 }
 
-a.hover.tombolselanjutnya {
+a.hover .tombolselanjutnya {
     background-color: rgb(38, 70, 83);
     border-style: solid;
     border-color: rgb(247, 127, 0);
     border-width: 1.5px;
 }
 
-.kolomkanan.judul {
-    background-color: rgb(38, 70, 83);
+.kolomkanan .judul {
+    background-color: #FFBBBB;
     color: rgb(241, 250, 238);
     text-align: center;
     padding: 10px;
