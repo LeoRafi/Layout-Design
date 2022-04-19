@@ -1,0 +1,228 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+    width: 900px;
+    margin: auto;
+	padding: 0px;
+	font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+	background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg);
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+.navigasi {
+    box-sizing: border-box;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+.logo a {
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: courier;
+	color: #398AB9;
+}
+
+.menu {
+	float: right;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit -sticky;
+	top: 0;
+	background: #FFBBBB;
+	z-index: 1;
+	border-bottom: 1px solid #398AB9;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	transition: 0.6s;
+}
+
+nav ul li a:hover {
+    background-color: #EBD8C3;
+    color: rgb(0, 48, 73);
+}
+
+.pembungkus {
+    width: 800px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 250px;
+    background-image: url(https://img.freepik.com/free-vector/many-cute-animals-bamboo-forest_1308-32851.jpg?t=st=1649946453~exp=1649947053~hmac=5a1995a64c69de8e70ba385caab329577cf9beb2466ee69645d28cc607aab163&w=900);
+    background-size: cover;
+    position: relative;
+}
+
+.konten {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    padding: 10px;
+    color: rgb(38, 70, 83);
+}
+
+.konten h1.judulartikel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.konten p.tanggalposting {
+    font-size: 10px;
+    color: rgb(231, 111, 81);
+    margin-top: 10px;
+}
+
+.isiartikel {
+    margin-top: 25px;
+}
+
+.isiartikel p {
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.isiartikel img.gambarartikel {
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    padding: 15px;
+    background-color: #FFBBBB;
+    color:rgb(38, 70, 83);
+    text-align: center;
+}
+
+.kolomkiri {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 10px;
+    color: rgb(red, green, blue);
+    float: left;
+}
+
+.kolomkanan {
+    box-sizing: border-box;
+    width: 25%;
+    float: right;
+}
+
+.artikel {
+    margin-bottom: 50px;
+}
+
+.kolomkiri h1.judulartikel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.kolomkiri p.tanggalposting {
+    font-size: 10px;
+    color: rgb(231, 111, 81);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.tombolselanjutnya {
+    background-color:#E78EA9;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(38, 70, 83);
+    border-width: 1.5px;
+}
+
+a.tombolselanjutnya {
+    text-decoration: none;
+    color: rgb(241, 250, 238)
+}
+
+a.hover.tombolselanjutnya {
+    background-color: rgb(38, 70, 83);
+    border-style: solid;
+    border-color: rgb(247, 127, 0);
+    border-width: 1.5px;
+}
+
+.kolomkanan.judul {
+    background-color: rgb(38, 70, 83);
+    color: rgb(241, 250, 238);
+    text-align: center;
+    padding: 10px;
+}
+
+.isi .gambartentang {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.isi ul {
+    line-height: 17px;
+}
+
+.isi ul li {
+    margin-bottom: 5px;
+}
+
+.isi ul li a {
+    text-decoration: none;
+    color: rgb(38, 70, 83);
+}
+
+.isi ul li a:hover{
+    color:rgb(247, 127, 0)
+}
+
+.artikelpopuler {
+    margin-top: 20px;
+}
